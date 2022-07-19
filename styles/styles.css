@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Robotto', Arial, Helvetica, sans-serif;
+    
+}
+header {
+    background-color: #EEEFF1;
+}
+
+.containermenu {
+    padding-top: 79px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 369px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 42px;
+    height: 16px;
+}
+
+li > a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+a:hover {
+    color: #34547A;
+}
+
+.container {
+    background-color: #EEEFF1;
+}
+
+.containerphrases {
+    padding-top: 162px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 369px;
+    padding-bottom: 141px;
+    background-color: #EEEFF1;
+}
+
+.headerphrase {
+    width: 541px;
+    height: 45px;
+    left: 399px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+}
+
+.text {
+    width: 540px;
+    height: 67px;
+    left: 400px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 60px;
+}
+
+.button {
+margin-top: 65px;
+background-color: #34547A;
+width: 225px;
+height: 65px;
+}
+
+.button>p {
+    text-align: center;
+    padding-top: 19px;
+}
+
+#writeme {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Обо мне */
+.for_me {
+    margin-top: 112px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.for_me_h {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.for_me_h +p {
+    width: 540px;
+    height: 67px;
+    left: 690px;
+    top: 892px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 auto;
+    color: #727272;
+}
+
+/* Линия с проектами  */
+
+.line_projects {
+    background-color: #34547A;
+}
+
+.list {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.list >li {
+    display: inline-block;
+}
+
+.project_items {
+    margin-right: 45px;
+    padding-bottom: 100px;
+}
+
+li > img {
+    width: 50px;
+    height: 50px;
+}
+
+li > p {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.bold_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: -35px;
+}
+
+/* Как я работаю */
+
+.container3 {
+    margin-top: 100px;
+    text-align: center;
+}
+.container3 >h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #000000;
+}
+
+.container3 > p {
+    margin: 0 auto;
+    width: 540px;
+    height: 67px;
+    left: 690px;
+    top: 1489px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.video {
+     margin-top: 100px;
+     padding-bottom: 100px;
+}
+
+.image_video {
+    position: relative;
+    margin: 0 auto;
+    background-image: url('../images/background.png');
+    width: 1110px;
+    height: 600px;
+}
+
+.image_video > p {
+    text-align: center;
+    padding-top: 250px;
+}
+
+.logo_play {
+    width: 100px;
+    height: 100px;
+}
+
+/* Подвал */
+footer {
+    background-color: #34547A;;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    padding-top: 50px;
+    padding-left: 406px;
+}
+h3 + p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    padding-top: 20px;
+    padding-left: 406px;
+    padding-bottom: 50px;
+}
