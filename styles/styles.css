@@ -1,27 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Robotto', Arial, Helvetica, sans-serif;
-    
+    font-family: 'Robotto', Arial, Helvetica, sans-serif
 }
+
 header {
     background-color: #EEEFF1;
 }
 
-.containermenu {
+.header {
+    max-width: 1110px;
+    width: 100%;
+    padding: 0px 20px;
     padding-top: 79px;
-    padding-right: 30px;
-    padding-left: 30px;
-    margin-left: 369px;
+    margin: 0px auto;
 }
 
-li {
+nav {
+    max-width: 620px;
+}
+
+nav a {
     display: inline-block;
     padding-right: 42px;
-    height: 16px;
-}
-
-li > a {
     text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
@@ -36,22 +37,26 @@ a:hover {
     color: #34547A;
 }
 
-.container {
+.hero-section {
     background-color: #EEEFF1;
+    width: 100%;
+    padding-top: 162px;
+
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0px auto;
 }
 
 .containerphrases {
-    padding-top: 162px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: 369px;
-    padding-bottom: 141px;
-    background-color: #EEEFF1;
+    max-width: 541px;
+    padding-bottom: 162px;
 }
 
 .headerphrase {
-    width: 541px;
-    height: 45px;
     left: 399px;
     font-family: 'Roboto';
     font-style: normal;
@@ -59,11 +64,10 @@ a:hover {
     font-size: 48px;
     line-height: 79px;
     color: #000000;
+    margin-bottom: 60px;
 }
 
-.text {
-    width: 540px;
-    height: 67px;
+.text {    
     left: 400px;
     font-family: 'Roboto';
     font-style: normal;
@@ -71,19 +75,7 @@ a:hover {
     font-size: 16px;
     line-height: 26px;
     color: #727272;
-    margin-top: 60px;
-}
-
-.button {
-margin-top: 65px;
-background-color: #34547A;
-width: 225px;
-height: 65px;
-}
-
-.button>p {
-    text-align: center;
-    padding-top: 19px;
+    margin-bottom: 65px;
 }
 
 #writeme {
@@ -95,14 +87,30 @@ height: 65px;
     letter-spacing: 0.1em;
     text-decoration: none;
     color: #FFFFFF;
+    padding: 19px 41px;
+    width: 225px;
+    background-color: #34547A;
+}
+
+#writeme:hover {
+    text-shadow: 0px 0px 2px white;
+    box-shadow: 0px 0px 5px #34547A;
 }
 
 /* Обо мне */
 .for_me {
-    margin-top: 112px;
-    text-align: center;
-    padding-bottom: 100px;
+    padding-top: 112px;
+
 }
+
+.container2 {
+    max-width: 540px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0px auto;
+    text-align: center;
+}
+
 .for_me_h {
     font-family: 'Roboto';
     font-style: normal;
@@ -112,18 +120,15 @@ height: 65px;
     color: #000000;
     margin-bottom: 50px;
 }
-.for_me_h +p {
-    width: 540px;
-    height: 67px;
-    left: 690px;
-    top: 892px;
+
+.for_me_h+p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    margin: 0 auto;
     color: #727272;
+    margin-bottom: 100px;
 }
 
 /* Линия с проектами  */
@@ -132,12 +137,20 @@ height: 65px;
     background-color: #34547A;
 }
 
+.container3 {
+    max-width: 1160px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+
 .list {
     padding-top: 100px;
     text-align: center;
+    margin: 0px auto;
 }
 
-.list >li {
+.list>li {
     display: inline-block;
 }
 
@@ -146,12 +159,12 @@ height: 65px;
     padding-bottom: 100px;
 }
 
-li > img {
+.project_items img {
     width: 50px;
     height: 50px;
 }
 
-li > p {
+.project_items p {
     display: inline-block;
     font-family: 'Roboto';
     font-style: normal;
@@ -160,6 +173,16 @@ li > p {
     line-height: 26px;
     color: #FFFFFF;
     margin-left: 20px;
+}
+
+.project_items>a {
+    text-decoration: none;
+    width: 145px;
+    padding-top: 40px;
+}
+
+.project_items>a:hover {
+    text-shadow: 0px 0px 2px white;
 }
 
 .bold_text {
@@ -173,12 +196,19 @@ li > p {
 }
 
 /* Как я работаю */
+.how-work {
+    padding-top: 100px;
+}
 
-.container3 {
-    margin-top: 100px;
+.container4 {
+    max-width: 1160px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0px auto;
     text-align: center;
 }
-.container3 >h2 {
+
+.container4>h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -189,7 +219,7 @@ li > p {
     color: #000000;
 }
 
-.container3 > p {
+.container4>p {
     margin: 0 auto;
     width: 540px;
     height: 67px;
@@ -204,8 +234,8 @@ li > p {
 }
 
 .video {
-     margin-top: 100px;
-     padding-bottom: 100px;
+    margin-top: 100px;
+    padding-bottom: 100px;
 }
 
 .image_video {
@@ -216,7 +246,7 @@ li > p {
     height: 600px;
 }
 
-.image_video > p {
+.image_video>p {
     text-align: center;
     padding-top: 250px;
 }
@@ -226,28 +256,37 @@ li > p {
     height: 100px;
 }
 
+.logo_play:hover {
+    box-shadow: 0px 0px 3px white;
+}
+
 /* Подвал */
 footer {
-    background-color: #34547A;;
+    background-color: #34547A;
+    ;
     color: #FFFFFF;
 }
 
-h3 {
+footer div {
+    max-width: 1110px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0 auto;
     font-family: 'Roboto';
     font-style: normal;
+}
+
+h3 {
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
     padding-top: 50px;
-    padding-left: 406px;
 }
-h3 + p {
-    font-family: 'Roboto';
-    font-style: normal;
+
+h3+p {
     font-weight: 400;
     font-size: 13px;
     line-height: 21px;
-    padding-top: 20px;
-    padding-left: 406px;
+    margin-top: 20px;
     padding-bottom: 50px;
 }
