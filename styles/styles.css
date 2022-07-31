@@ -52,7 +52,7 @@ a:hover {
 }
 
 .containerphrases {
-    max-width: 541px;
+    width: 541px;
     padding-bottom: 162px;
 }
 
@@ -78,7 +78,15 @@ a:hover {
     margin-bottom: 65px;
 }
 
-#writeme {
+.btn {
+    width: 225px; 
+    margin: 0;
+    padding: 0;  
+    overflow: hidden;
+}
+
+.btn a {
+    display: block;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -87,12 +95,13 @@ a:hover {
     letter-spacing: 0.1em;
     text-decoration: none;
     color: #FFFFFF;
-    padding: 19px 41px;
-    width: 225px;
+    margin: 0;    
+    padding: 19px 41px;    
     background-color: #34547A;
+    text-align: center;
 }
 
-#writeme:hover {
+.btn:hover {
     text-shadow: 0px 0px 2px white;
     box-shadow: 0px 0px 5px #34547A;
 }
@@ -100,15 +109,13 @@ a:hover {
 /* Обо мне */
 .for_me {
     padding-top: 112px;
+} 
 
-}
-
-.container2 {
+.container-headers {
     max-width: 540px;
-    width: 100%;
-    padding: 0px 20px;
-    margin: 0px auto;
-    text-align: center;
+    padding: 0 10px;
+    text-align: center; 
+    margin: 0 auto;
 }
 
 .for_me_h {
@@ -137,13 +144,6 @@ a:hover {
     background-color: #34547A;
 }
 
-.container3 {
-    max-width: 1160px;
-    width: 100%;
-    padding: 0px 20px;
-    margin: 0px auto;
-}
-
 .list {
     padding-top: 100px;
     text-align: center;
@@ -151,34 +151,39 @@ a:hover {
 }
 
 .list>li {
-    display: inline-block;
+    float: left;
+    width: calc(100%/6);
+    list-style: none;
+    padding-bottom: 100px;     
 }
 
-.project_items {
-    margin-right: 45px;
-    padding-bottom: 100px;
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
 }
 
 .project_items img {
     width: 50px;
     height: 50px;
+    float: left;
 }
 
-.project_items p {
-    display: inline-block;
+.project_items p {   
+    float: right;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #FFFFFF;
-    margin-left: 20px;
+    color: #FFFFFF;    
 }
 
 .project_items>a {
-    text-decoration: none;
-    width: 145px;
+    display: block;
+    text-decoration: none;    
     padding-top: 40px;
+    max-width: 141px;
 }
 
 .project_items>a:hover {
@@ -200,15 +205,7 @@ a:hover {
     padding-top: 100px;
 }
 
-.container4 {
-    max-width: 1160px;
-    width: 100%;
-    padding: 0px 20px;
-    margin: 0px auto;
-    text-align: center;
-}
-
-.container4>h2 {
+.how-work h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -219,7 +216,7 @@ a:hover {
     color: #000000;
 }
 
-.container4>p {
+.how-work p {
     margin: 0 auto;
     width: 540px;
     height: 67px;
@@ -265,15 +262,6 @@ footer {
     background-color: #34547A;
     ;
     color: #FFFFFF;
-}
-
-footer div {
-    max-width: 1110px;
-    width: 100%;
-    padding: 0px 20px;
-    margin: 0 auto;
-    font-family: 'Roboto';
-    font-style: normal;
 }
 
 h3 {
